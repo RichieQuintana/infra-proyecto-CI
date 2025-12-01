@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-ci-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-ci-app
+  template:
+    metadata:
+      labels:
+        app: python-ci-app
+    spec:
+      containers:
+      - name: python-ci-container
+        image: dockeruser/app:1.0.0
+        ports:
+        - containerPort: 80
