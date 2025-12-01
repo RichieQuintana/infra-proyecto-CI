@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/TU_USUARIO/infra-proyecto-CI.git
+    repoURL: https://github.com/RichieQuintana/infra-proyecto-CI.git
     targetRevision: main
     path: k8s/
   destination:
