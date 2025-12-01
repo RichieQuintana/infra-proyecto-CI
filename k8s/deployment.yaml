@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-ci-container
-        image: richiequintana/app:1.0.0
+        image: richieq/app:b2e5148e611e07bf7750c858cd2227b40b1b4177
         imagePullPolicy: Always
         resources:
           requests:
